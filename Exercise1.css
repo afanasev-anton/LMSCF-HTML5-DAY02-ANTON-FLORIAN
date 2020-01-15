@@ -6,8 +6,9 @@ body{
 }
 
 #alert{
-	font-size: 3em;
+	font-size: 2em;
 	color: #FF5733 ;
+	text-align: center;
 }
 
 td{
