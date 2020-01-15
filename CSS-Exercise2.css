@@ -1,0 +1,53 @@
+/* BLUEPRINT GRID EXPERIMENT */
+/*Aren't CSS backgrounds so cool?*/
+body {
+  background-color: white;
+  /* 1. define vertical lines */
+  background-image: linear-gradient(#9b0072 1px, transparent 1px),
+  /* 2. define horizontal lines */
+  linear-gradient(90deg, #9b0072 1px, transparent 1px),
+  /* 3. define smaller vertical lines */
+    linear-gradient(rgba(155, 0, 144, .5) 1px, transparent 1px),
+  /* 4. define smaller horizontal lines */
+    linear-gradient(90deg, rgba(155, 0, 144, .5) 1px, transparent 1px);
+  /* These set the background sizes for each linear gradient defined*/
+  background-size: 200px 200px, 200px 200px, 20px 20px, 20px 20px;
+  /* This sets the position for each gradient as well*/
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.left{
+  border: 6px dashed  #749CF9;
+  margin: 50px;
+}
+
+.right{ 
+  border: 5px solid #749CF9;
+  margin: 50px;
+
+}
+
+#first{
+background: #9b0072;
+}
+#second{
+background: #9b0072;
+
+}
+#third p{ 
+background: #9b0072;
+
+}
+#fourth{
+background: #9b0072;
+}
+#fifth{
+background: #9b0072;
+}
+#sixth{
+background: #9b0072;
+}
+
+input + h1 + img {
+  background-color: black;
+
+}
