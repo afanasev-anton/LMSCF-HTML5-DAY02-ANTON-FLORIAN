@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <style>
+     #divstatic {
+       position: static;
+       border: 3px solid green;
+     }
+     #divabsolute {
+       position: absolute;
+       top: 130px;
+       left: 200px;
+       border: 3px solid red;
+     }
+     #divrelative {
+       position:relative;
+       top: -70px;
+       left: 100px;
+       border: 3px solid blue;
+     }
+     #divfixed {
+       position: fixed;
+       bottom:50px;
+       border: 3px solid violet;
+     }
+   </style>
+ </head>
+ <body>
+   <h2>position: static;</h2>
+   <p>An element with position: static; will follow the normal flow of the page:</p>
+   <div id="divstatic">
+     This div element has <code>position: static;</code> and will follow the normal flow of the page
+   </div>
+   <h2>position: absolute;</h2>
+   <p>An element with position: absolute; is free of normal flow restrictions</p>
+   <div id="divabsolute">
+     This div element has <code>position: absolute;</code> and is positioned absolute to the viewport; therefore, normal flow rules do not apply
+   </div>
+   <h2>position: relative;</h2>
+   <p>Non-relative (aka static) element would appear just below this paragraph:</p>
+   <div id="divrelative">
+     This div element has <code>position: relative;</code> to the position where it would bein a normal flow; it can of course go left, right, up and down to this position.
+   </div>
+   <h2>position: fixed;</h2>
+   <p>Fixed element is glued to edges of the viewport, regardless to how you change the viewport or scroll. </p>
+   <div id="divfixed">
+     This div element has <code>position: fixed;</code>.
+   </div>
+ </body>
+</html>
